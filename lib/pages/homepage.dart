@@ -162,7 +162,7 @@ class _HomePageState extends State<HomePage> {
       _foundToDO = results;
     });
   }
-
+//Appbar
   AppBar _buildAppBar() {
     return AppBar(
       elevation: 10,
@@ -183,6 +183,8 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+
+//Search function
   Widget searchBox() {
     return Container(
       margin: EdgeInsets.fromLTRB(0, 9, 0, 0),
