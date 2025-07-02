@@ -125,7 +125,7 @@ class _HomePageState extends State<HomePage> {
       todo.isDone = !todo.isDone;
     });
   }
-
+//delete the item
   void _deleteToDoItem(String id) {
     setState(() {
       todosList.removeWhere((item) => item.id == id);
